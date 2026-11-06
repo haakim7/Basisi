@@ -44,8 +44,8 @@
 
 | 이름 | 역할 | 핵심 기술 | 주요 작업 |
 | --- | --- | --- | --- |
-| 이주영 | 인프라 및 보안 | Spring Security, JWT, Docker, AWS, nGrinder | [Phase 1] 초기 환경 세팅, JWT 인증/인가와 로그인 API<br>[Phase 4] AWS 배포와 nGrinder 부하 테스트 |
 | 김준하 | 데이터 설계, 검색 및 AI 시터 추천 | Spring Boot, JPA, QueryDSL, PostgreSQL, PostGIS, OpenAI API(WebClient) | [Phase 1] 도메인 모델(Entity) 설계와 프로필 CRUD API<br>[Phase 2] QueryDSL 다중 조건 검색, PostGIS 위치 검색 스키마<br>[Phase 3] DB 확정 + LLM 재순위 AI 시터 추천<br>[배포] Render 배포 구성 |
+| 이주영 | 인프라 및 보안 | Spring Security, JWT, Docker, AWS, nGrinder | [Phase 1] 초기 환경 세팅, JWT 인증/인가와 로그인 API<br>[Phase 4] AWS 배포와 nGrinder 부하 테스트 |
 | 임다솔 | 비즈니스 로직 및 동시성 | Spring Transaction, Redis, Redisson | [Phase 2] 플랫폼 핵심 예약 워크플로우<br>[Phase 3] Redisson 분산 락으로 중복 예약 방지 |
 | 서석현 | AI 및 메시징 파이프라인 | Kafka/RabbitMQ, LLM API, WebClient | [Phase 3] Kafka 메시지 브로커와 비동기 파이프라인 설계, '활동 온도(불꽃)' 알고리즘 |
 | 왕서빈 | 통찰 제공 및 실시간 알림 | SSE, AI Prompting, JPA | [Phase 2] 리뷰와 평점 시스템<br>[Phase 3] 맞춤형 '아이 성장 리포트'<br>[Phase 4] SSE 기반 실시간 알림 |
